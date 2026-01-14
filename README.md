@@ -1,6 +1,40 @@
+Great 👍
+Below is the **final updated README.md** with **ALL THREE dashboard images included properly**, cleanly formatted, and **GitHub-ready**.
+
+---
+
 ## 📊 **Project Title**
 
-**Healthcare Patient Waitlist Analytics Dashboard (Power BI)**
+# **Healthcare Patient Waitlist Analytics Dashboard (Power BI)**
+
+---
+
+## 🖼️ Dashboard Previews
+
+### 🔹 Overall Dashboard Summary
+
+![Dashboard Summary](Screenshots/dashboard_summary.png)
+
+---
+
+### 🔹 Specialty Group Breakup (Drill-Through View)
+
+![Specialty Group Breakup](Screenshots/specialty_group_breakup.png)
+
+---
+
+### 🔹 Monthly Trend & Detailed Analysis
+
+![Monthly Trend Analysis](Screenshots/monthly_trend_analysis.png)
+
+📌 **Place images inside this folder:**
+
+```
+Screenshots/
+├── dashboard_summary.png
+├── specialty_group_breakup.png
+└── monthly_trend_analysis.png
+```
 
 ---
 
@@ -8,90 +42,84 @@
 
 ### 🏥 Project Overview
 
-The **Healthcare Patient Waitlist Analytics Dashboard** is an interactive data visualization project designed to analyze, monitor, and compare patient waitlists across different case types, specialties, age groups, and time periods.
-This dashboard helps healthcare administrators and decision-makers identify bottlenecks, trends, and priority areas to improve patient care delivery and reduce waiting times.
+The **Healthcare Patient Waitlist Analytics Dashboard** is a Power BI–based analytics solution designed to visualize, analyze, and monitor healthcare patient waitlists across **case types, specialties, age groups, and time periods**.
 
-The dashboard is built with a strong focus on **clarity, usability, and actionable insights**, using KPIs, trend analysis, and drill-down visuals.
+This project enables healthcare stakeholders to identify **long waiting durations, specialty-level pressure, and historical trends**, supporting informed decision-making and operational optimization.
 
 ---
 
 ### 🎯 Objectives
 
-* Track **total patient waitlists** over time
-* Compare **current vs previous year** waitlists
-* Analyze waitlists by **case type**, **specialty**, and **age group**
-* Understand **long-term vs short-term waiting patterns**
-* Enable **data-driven healthcare planning and optimization**
+* Track **total patient waitlists**
+* Compare **latest month vs previous year**
+* Analyze waitlists by:
+
+  * Case Type
+  * Specialty & Specialty Group
+  * Age Profile
+* Understand **waiting time distribution**
+* Detect **trend patterns and bottlenecks**
 
 ---
 
 ### 🗂️ Dataset Description
 
-The dashboard uses healthcare waitlist data containing:
+The dataset includes:
 
-* Patient archive dates
-* Case types (Outpatient, Day Case, Inpatient)
-* Specialty names and specialty groups
-* Patient age profiles
-* Wait time bands (0–3 months, 3–6 months, …, 18+ months)
+* Archive Date
+* Case Type (Outpatient, Day Case, Inpatient)
+* Specialty Name & Specialty Group
+* Patient Age Group
+* Waiting Time Bands (0–3, 3–6, 6–9, 9–12, 12–15, 15–18, 18+ months)
 
 ---
 
-### 🧩 Key Features & Visuals
+### 🧩 Dashboard Components
 
-#### 1️⃣ **Total Wait List Comparison (KPI Cards)**
+#### 1️⃣ **Total Wait List Comparison**
 
-* Displays:
+* KPI cards showing:
 
-  * **Latest Month Wait List** (e.g., 709K)
-  * **Previous Year Latest Month Wait List** (e.g., 640K)
-* Helps in **year-over-year performance comparison**
+  * **Latest Month Wait List**
+  * **Previous Year Latest Month Wait List**
+* Enables quick year-over-year comparison
 
 ---
 
 #### 2️⃣ **Wait List Bifurcation by Case Type**
 
-* Donut chart showing distribution across:
+* Donut chart:
 
   * Outpatient
   * Day Case
   * Inpatient
-* Includes:
-
-  * Percentage contribution
-  * Overall average wait value
-
-📌 Insight: Quickly identifies which case type dominates the waitlist.
+* Displays percentage contribution and overall average
 
 ---
 
-#### 3️⃣ **Key Indicators – Patient Wait List (Average / Median)**
+#### 3️⃣ **Key Indicators – Patient Wait List**
 
 * Toggle between:
 
   * **Average**
   * **Median**
-* Prevents skewed interpretation caused by extreme values.
+* Improves accuracy by reducing outlier impact
 
 ---
 
-#### 4️⃣ **Wait List Analysis: Time Band vs Age Profile**
+#### 4️⃣ **Wait Time vs Age Profile Analysis**
 
-* Stacked bar chart combining:
+* Stacked bar chart:
 
-  * Wait time bands (0–3 months to 18+ months)
-  * Age profiles:
-
-    * 0–15
-    * 16–64
-    * 65+
-* Reveals how different age groups are impacted by long waiting periods.
+  * X-axis: Wait Time Bands
+  * Stack: Age Groups (0–15, 16–64, 65+)
+* Highlights which age group faces longer waits
 
 ---
 
 #### 5️⃣ **Top 5 Wait Lists by Specialty**
 
-* Ranked list of specialties such as:
+* Identifies high-demand specialties such as:
 
   * Accident & Emergency
   * Paediatric Dermatology
@@ -99,14 +127,12 @@ The dashboard uses healthcare waitlist data containing:
   * Paed Orthopaedic
   * Paed Cardiology
 
-📌 Insight: Helps prioritize resource allocation to high-demand specialties.
-
 ---
 
-#### 6️⃣ **Specialty Group Breakup (Drill-Through View)**
+#### 6️⃣ **Specialty Group Breakup (Drill-Through)**
 
-* Displays **Total Wait List (e.g., 68,807)** for a selected filter.
-* Horizontal bar chart showing waitlist distribution across:
+* Shows **Total Wait List count**
+* Horizontal bar chart by specialty groups:
 
   * General
   * Bones
@@ -116,31 +142,26 @@ The dashboard uses healthcare waitlist data containing:
   * Heart
   * Respiratory, Immune System, etc.
 
-📌 Insight: Enables deep-dive analysis into specialty categories.
-
 ---
 
 #### 7️⃣ **Monthly Trend Analysis**
 
-* Line charts showing trends for:
+* Line charts for:
 
-  * **Day Case vs Inpatient**
-  * **Outpatients**
-* Time range:
-
-  * 2018 to 2021
-
-📌 Insight: Identifies seasonal spikes, growth patterns, and anomalies.
+  * Day Case vs Inpatient
+  * Outpatients
+* Time range: **2018–2021**
+* Reveals growth trends and seasonal variations
 
 ---
 
-### 🎛️ Interactive Filters & Slicers
+### 🎛️ Interactive Filters
 
-* **Archive Date Range Slider**
-* **Case Type Dropdown**
-* **Specialty Name Dropdown**
+* Archive Date Range Slider
+* Case Type Selector
+* Specialty Name Selector
 
-These filters dynamically update **all visuals** for real-time exploration.
+🔄 All visuals update dynamically based on selections.
 
 ---
 
@@ -148,31 +169,22 @@ These filters dynamically update **all visuals** for real-time exploration.
 
 * **Power BI Desktop**
 * **DAX (Data Analysis Expressions)**
-* **Healthcare Dataset (CSV / Excel / Database)**
 * **Data Modeling & Relationships**
+* **Healthcare Dataset (CSV / Excel)**
 * **Custom Dark Theme UI**
 
 ---
 
-### 📈 Key Insights Enabled
+### 📈 Key Insights
 
 * Outpatients contribute the **largest share** of the waitlist
-* Long waiting periods (18+ months) are significantly high
-* Certain pediatric and emergency specialties are under high pressure
-* Overall waitlists show an **upward trend over time**
+* Significant backlog exists in **18+ months waiting category**
+* Pediatric and emergency specialties show high pressure
+* Overall waitlist trend is **increasing over time**
 
 ---
 
-### 🚀 Use Cases
-
-* Hospital administration dashboards
-* Healthcare policy analysis
-* Operational efficiency monitoring
-* Academic & portfolio projects in **Data Analytics / Power BI**
-
----
-
-### 📂 Project Structure (Suggested)
+### 📂 Project Structure
 
 ```
 Healthcare-Waitlist-Dashboard/
@@ -184,19 +196,21 @@ Healthcare-Waitlist-Dashboard/
 │   └── Healthcare_Waitlist_Dashboard.pbix
 │
 ├── Screenshots/
-│   └── dashboard_overview.png
+│   ├── dashboard_summary.png
+│   ├── specialty_group_breakup.png
+│   └── monthly_trend_analysis.png
 │
 └── README.md
 ```
 
 ---
 
-### 🧠 Future Enhancements
+### 🚀 Future Enhancements
 
-* Add **predictive forecasting** for waitlists
-* Include **hospital-wise comparison**
-* Integrate **real-time data sources**
-* Add patient outcome and discharge analytics
+* Predictive waitlist forecasting
+* Hospital-level comparison
+* Real-time data integration
+* Patient outcome and discharge analytics
 
 ---
 
