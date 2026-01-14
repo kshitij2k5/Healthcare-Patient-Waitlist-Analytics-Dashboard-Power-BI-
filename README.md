@@ -1,8 +1,3 @@
-Great 👍
-Below is the **final updated README.md** with **ALL THREE dashboard images included properly**, cleanly formatted, and **GitHub-ready**.
-
----
-
 ## 📊 **Project Title**
 
 # **Healthcare Patient Waitlist Analytics Dashboard (Power BI)**
